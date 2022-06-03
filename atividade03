@@ -1,0 +1,17 @@
+vi = float( input(' Qual o capital a ser investido?: ') )
+
+i = float ( input('Qual a taxa de juros?: ') )
+
+t = input('Qual a modalidade de juros?(simples/composto): ')
+
+if t == 'simples':
+   i = i / 100
+   m = int( input('Qual o tempo de aplicação em meses?: ') )
+   vf = vi * (1 + i*m)
+   print('Montante apos ',m,' meses: R$ ',vf)
+
+elif t == 'composto':
+    i = i / 100
+    m = int(input('Qual o tempo de aplicação em meses?: '))
+    vf = vi * (1 + i) ** m
+    print('Montante apos ', m, ' meses: R$ ', vf)
