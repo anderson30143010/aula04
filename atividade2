@@ -1,0 +1,8 @@
+
+a = int(input(' digite um numero: '))
+
+if a % 2 == 0:
+    print(" o quadrado desse numero par é: ",(a ** 2))
+
+else:
+    print(" o cubo desse numero impar é: ", (a ** 3))
