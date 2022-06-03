@@ -1,0 +1,10 @@
+nome1 = input('Primeiro nome: ')
+
+nome2 = input('Segundo numero: ')
+
+if len(nome1) > len(nome2):
+    print(f"{nome1}")
+elif len(nome2) > len(nome1):
+    print(f"{nome2}")
+else:
+    print('os dois nomes tem o mesmo tamanho ')
