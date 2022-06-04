@@ -1,0 +1,12 @@
+somaPares = 0
+somaImpares = 0
+
+for cont in range(0,10):
+    num = int(input('Informe um número: '))
+    if num%2 == 0:
+        somaPares = somaPares + num
+    else:
+        somaImpares += num
+
+print(f'Soma pares: {somaPares}')
+print(f'Soma ímpares: {somaImpares}')
