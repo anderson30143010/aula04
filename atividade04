@@ -1,0 +1,8 @@
+soma = 0
+for cont in range(1,6):
+    nota = float(input('Informe a nota: '))
+    soma += nota
+
+media = soma / 5
+
+print(f'A média final foi: {media}')
